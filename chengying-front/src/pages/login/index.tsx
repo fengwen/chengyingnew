@@ -225,19 +225,13 @@ class Login extends React.Component<IProps, State> {
       <div
         className="login-container"
         style={{ height: document.body.clientHeight }}>
-        <div className="header">
-          <a href="/" className="header-logo-wrapper">
-            <img src={require('public/imgs/logo_chengying@2x.png')} />
-            <span className="header-logo-name">ChengYing</span>
-          </a>
-        </div>
         <div style={{ height: document.body.clientHeight - 40, width: '100%' }}>
           <img className="bg-img" src={require('public/imgs/BG.png')} />
           <div
             className="content"
             style={{ minHeight: this.state.needValidCode ? 330 : 275 }}>
             <p style={{ fontSize: 18, color: '#333333', marginBottom: 31 }}>
-              欢迎登录ChengYing
+              欢迎产品安装部署工作台
             </p>
             <Form>
               <FormItem>
@@ -330,7 +324,7 @@ class Login extends React.Component<IProps, State> {
             left: '50%',
             transform: 'translate(-50%,0)',
           }}>
-          ChengYing@V{APP.VERSION}
+          安装部署工具2.1
         </div>
       </div>
     );

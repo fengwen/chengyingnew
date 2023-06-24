@@ -1,5 +1,12 @@
 # ChengYing
 
+、、、
+docker build -t manage-front:2.1 .
+
+dockerstop $(dockerps -aq)
+、、、
+
+
 ChengYing名字由来为中国古代十大名剑之一-承影。
 
 ChengYing来源于数栈运维管家-EasyManager，是袋鼠云数栈运维保障团队出品的一款支持标准化schema定义、自动化部署产品包的软件，旨在对产品包下每个服务进行部署、升级、卸载、配置等操作，解放人工运维成本。
