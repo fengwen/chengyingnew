@@ -231,7 +231,7 @@ class Login extends React.Component<IProps, State> {
             className="content"
             style={{ minHeight: this.state.needValidCode ? 330 : 275 }}>
             <p style={{ fontSize: 18, color: '#333333', marginBottom: 31 }}>
-              欢迎产品安装部署工作台
+              欢迎亚信大数据产品安装部署工作台
             </p>
             <Form>
               <FormItem>
@@ -324,7 +324,7 @@ class Login extends React.Component<IProps, State> {
             left: '50%',
             transform: 'translate(-50%,0)',
           }}>
-          安装部署工具2.1
+          产品安装部署工具V0.1
         </div>
       </div>
     );

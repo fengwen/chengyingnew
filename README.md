@@ -1,10 +1,11 @@
 # ChengYing
 
-、、、
+```
 docker build -t manage-front:2.1 .
 
-dockerstop $(dockerps -aq)
-、、、
+停止所有的镜像
+docker stop $(docker ps -aq)
+```
 
 
 ChengYing名字由来为中国古代十大名剑之一-承影。
